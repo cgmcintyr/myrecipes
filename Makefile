@@ -1,3 +1,9 @@
+# Helper targets for my rails projects
+#
+# Note: .PHONY is a hack to ensure make runs a target even if a file/directory
+# with the same name exists.
+#
+
 DEFAULT_GOAL := help
 BE = bundle exec
 
