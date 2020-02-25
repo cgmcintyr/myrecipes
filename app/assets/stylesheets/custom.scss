@@ -1,0 +1,23 @@
+#logo {
+    float: left;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.jumbotron {
+    margin-top: 2rem;
+    background-image: url(asset-path('banner_unsplash.jpg'));
+    height: 300px;
+    background-position: left;
+    background-size: 1200px 900px;
+}
+
+.jumbotron > h1 {
+    font-size: 2em;
+}
+
+.jumbotron > h2 {
+    font-size: 1.8em;
+}
