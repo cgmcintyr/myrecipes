@@ -1,4 +1,4 @@
 // Custom bootstrap variables must be set or imported *before* bootstrap.
+$enable-responsive-font-sizes: true;
 @import "bootstrap";
-
 @import "./custom.scss";
