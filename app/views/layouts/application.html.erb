@@ -9,10 +9,17 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-  <%= render 'layouts/navigation' %>
-  <main role="main" class="container">
-    <%= yield %>
-  </main>
+  <body class="d-flex flex-column">
+
+      <%= render 'layouts/navigation' %>
+
+      <main role="main" class="container flex-grow-1 flex-shrink-0">
+        <%= yield %>
+      </main>
+
+      <div role="main" class="flex-grow-0 flex-shrink-0">
+          <%= render 'layouts/footer' %>
+      </div>
+
   </body>
 </html>
